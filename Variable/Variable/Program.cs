@@ -6,7 +6,9 @@ namespace Variable
     {
         static void Main(string[] args)
         {
-            int temp = 5;
+            Console.WriteLine("The Number?");
+            int temp= Int32.Parse(Console.ReadLine());
+
             Console.WriteLine("THE NUMBER IS EQUAL TO "+temp+"!?!?!?!?!?");
         }
     }
