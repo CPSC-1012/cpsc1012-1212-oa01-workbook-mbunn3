@@ -24,11 +24,10 @@ namespace Sale
             price = double.Parse(Console.ReadLine());
             tax = Math.Round(price * (taxRate), 2);
             total = price + tax;
-            
 
-            Console.WriteLine($"Price: {price}");
-            Console.WriteLine($"Tax: {tax}");
-            Console.WriteLine($"Total: {total}");
+            Console.WriteLine($"{"Price:",-10} {price,8}");
+            Console.WriteLine($"{"Tax:",-10} {tax,8}");
+            Console.WriteLine($"{"Total:",-10} {total,8}");
         }
     }
 }
